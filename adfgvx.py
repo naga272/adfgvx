@@ -104,6 +104,13 @@ def algoritmo_adfgvx(to_encrypt: str) -> str:
 
 
 def main():
+    '''
+    questa fonte  e' stato fatta da chatgpt. 
+    Dice che e' stato un vero messaggio criptato col metodo adfgvx.
+    "Accelerare il rifornimento di munizioni. Punto. Se non osservato, anche di giorno."
+    Questo messaggio diceva ai comandi tedeschi di accelerare la consegna di munizioni anche di giorno, 
+    se non osservati e fu interpretato come indicazione di un’imminente offensiva tedesca nel settore nord di Compiègne.
+    '''
     stringa = "MunitionierungbeschleunigenPunktSoweitnichteingesehenauchbeiTag".lower()
 
     print("stringa da crittografare:\n", stringa.upper())
